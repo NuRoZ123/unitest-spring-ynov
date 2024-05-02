@@ -22,5 +22,6 @@ public class TestProvidersController {
         .andExpect(content().string(containsString("Samsung")))
         .andExpect(content().string(containsString("Orange")))
         .andExpect(content().string(containsString("HP")));
+
     }
 }
